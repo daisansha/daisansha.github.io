@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lamg="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>京都大学グリークラブ</title>
+    <link rel="stylesheet" href="kyoglee2024.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="header-logo">京都大学グリークラブ</div>
+      <div class="header-list">
+        <ul>
+          <a class="menu" href="kyoglee2024.html"><li>HOME</li></a>
+          <a class="menu" href="danshoukai.html" target="_blank"><li>団紹介</li></a>
+          <a class="menu" href="shinkan.html" target="_blank"><li>新歓情報</li></a>
+          <a class="menu" href="karenda-.html"><li>年間カレンダー</li></a>
+          <a class="menu" href="kakonoennsoukai.html"><li>過去の演奏会</li></a>
+        </ul>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="copy-container">
+        <h1>ー HOME ー</h1>
+        <h2>京都大学グリークラブへようこそ♪</h2>
+        <p>　我々、京都大学グリークラブは、<span class="hutomoji">”男声合唱”</span>という手段を通じ、学生らしい自由な発想のもとで、団員皆で１つの音楽を作り上げ、みなさんに届けることを理想に日々活動しています。「合唱」というと、未経験者にはなかなか近づきがたい世界のように思われがちですが、決してそのようなことはありません！実際、大学に入って初めて「合唱」を経験する人が多数を占めています。それでも、皆音楽に対する熱意は強く、日々の練習を通して、さらに演奏会の企画や運営などさまざまな経験を経て、それぞれが立派な合唱人へと成長していきます。</p>    
+        
+      <div class="btn-wrapper">
+        <a href="https://www.youtube.com/@user-pz8zi5ds6s" target="_blank" class="btn youtube"><span class="fa fa-youtube"></span>YouTubeはこちら</a>
+        <a href="https://x.com/Glee_KU" target="_blank" class="btn twitter"><span class="fa fa-twitter"></span>Twitterはこちら</a>  
+      </div>
+    </div>
+
+      <div class="contents">
+        <h3 class="section-title">京都大学グリークラブの何を知りたいですか？</h3>
+        <div class="contents-item">
+          <a href="danshoukai.html" target="_blank">
+            <img src="img/20231104 .jpg" width=400 alt="京都大学グリークラブ_集合写真">
+            <p class="contents-name">団紹介</p>
+          </a>               
+        </div>
+        <div class="contents-item">
+          <a href="shinkan.html">
+            <img src="img/20230513-1.jpg" width=400 alt="京都大学グリークラブ_新歓">
+            <p class="contents-name">新歓情報</p>
+          </a>         
+        </div>
+        <div class="contents-item">
+          <a href="karenda-.html">
+            <img src="img/20240223.jpg" width=400 alt="京都大学グリークラブ_宴会">
+            <p class="contents-name">年間カレンダー</p>
+          </a>      
+        </div>
+        <div class="contents-item">
+          <a href="kakonoennsoukai.html">
+            <img src="img/20240707-1-4.jpg" width=400 alt="京都大学グリークラブ_演奏会">
+            <p class="contents-name">過去の演奏会</p>
+          </a>
+        </div>
+      </div> 
+
+    </div>
+
+    <footer>
+      <a href="mailto:kyoglee@gmail.com"><p>お問い合わせ kyoglee@gmail.com</p></a>
+      <p>©Kyoto University Glee Club 1966-2024</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
