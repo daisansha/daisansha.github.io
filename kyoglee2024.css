@@ -1,73 +1,144 @@
-<!DOCTYPE html>
-<html lamg="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>京都大学グリークラブ</title>
-    <link rel="stylesheet" href="kyoglee2024.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  </head>
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
 
-  <body>
-    <header>
-      <div class="header-logo">京都大学グリークラブ</div>
-      <div class="header-list">
-        <ul>
-          <a class="menu" href="kyoglee2024.html"><li>HOME</li></a>
-          <a class="menu" href="danshoukai.html" target="_blank"><li>団紹介</li></a>
-          <a class="menu" href="shinkan.html" target="_blank"><li>新歓情報</li></a>
-          <a class="menu" href="karenda-.html"><li>年間カレンダー</li></a>
-          <a class="menu" href="kakonoennsoukai.html"><li>過去の演奏会</li></a>
-        </ul>
-      </div>
-    </header>
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
 
-    <div class="main">
-      <div class="copy-container">
-        <h1>ー HOME ー</h1>
-        <h2>京都大学グリークラブへようこそ♪</h2>
-        <p>　我々、京都大学グリークラブは、<span class="hutomoji">”男声合唱”</span>という手段を通じ、学生らしい自由な発想のもとで、団員皆で１つの音楽を作り上げ、みなさんに届けることを理想に日々活動しています。「合唱」というと、未経験者にはなかなか近づきがたい世界のように思われがちですが、決してそのようなことはありません！実際、大学に入って初めて「合唱」を経験する人が多数を占めています。それでも、皆音楽に対する熱意は強く、日々の練習を通して、さらに演奏会の企画や運営などさまざまな経験を経て、それぞれが立派な合唱人へと成長していきます。</p>    
-        
-      <div class="btn-wrapper">
-        <a href="https://www.youtube.com/@user-pz8zi5ds6s" target="_blank" class="btn youtube"><span class="fa fa-youtube"></span>YouTubeはこちら</a>
-        <a href="https://x.com/Glee_KU" target="_blank" class="btn twitter"><span class="fa fa-twitter"></span>Twitterはこちら</a>  
-      </div>
-    </div>
+li {
+  list-style: none;
+}
+ 
+  *{
+    box-sizing: border-box;
+  }
 
-      <div class="contents">
-        <h3 class="section-title">京都大学グリークラブの何を知りたいですか？</h3>
-        <div class="contents-item">
-          <a href="danshoukai.html" target="_blank">
-            <img src="img/20231104 .jpg" width=400 alt="京都大学グリークラブ_集合写真">
-            <p class="contents-name">団紹介</p>
-          </a>               
-        </div>
-        <div class="contents-item">
-          <a href="shinkan.html">
-            <img src="img/20230513-1.jpg" width=400 alt="京都大学グリークラブ_新歓">
-            <p class="contents-name">新歓情報</p>
-          </a>         
-        </div>
-        <div class="contents-item">
-          <a href="karenda-.html">
-            <img src="img/20240223.jpg" width=400 alt="京都大学グリークラブ_宴会">
-            <p class="contents-name">年間カレンダー</p>
-          </a>      
-        </div>
-        <div class="contents-item">
-          <a href="kakonoennsoukai.html">
-            <img src="img/20240707-1-4.jpg" width=400 alt="京都大学グリークラブ_演奏会">
-            <p class="contents-name">過去の演奏会</p>
-          </a>
-        </div>
-      </div> 
+header {
+    height: 90px;
+    background-color: #38b4ee;
+    opacity: 70%;
+    color: #fff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+  
+.header-logo {
+    font-size: 30px;
+    float: left;
+    margin: 20px 40px;
+}
+  
+.header-list li {
+    font-size:20px;
+    float: left;
+    margin: 30px 20px;
+}
 
-    </div>
+.menu:link{
+    color:#fff;
+}
 
-    <footer>
-      <a href="mailto:kyoglee@gmail.com"><p>お問い合わせ kyoglee@gmail.com</p></a>
-      <p>©Kyoto University Glee Club 1966-2024</p>
-      </div>
-    </footer>
+.main{
+    padding:100px 80px;
+}
 
-  </body>
-</html>
+.copy-container{
+  text-align: center;
+  width:100%;
+  margin:0 auto;
+  padding-top:60px;
+}
+
+.copy-container h1{
+  font-size: 60px;
+}
+
+.copy-container h2{
+  font-size: 60px;
+}
+ 
+.copy-container p{
+  font-size: 24px;
+  text-align: left;
+  margin-top:15px
+}
+
+.contents{
+  height:800px;
+  margin-top:100px;
+}
+
+.section-title{
+  font-size:28px;
+  border-bottom:1px solid #000;
+  padding-bottom:15px;
+  margin-bottom:30px;
+}
+
+.contents-item{
+  float:left;
+  margin-top:15px;
+  margin-right:30px;
+  opacity: 0.8;
+}
+
+.contents-item:hover{
+  opacity:1;
+}
+
+.contents-name{
+  text-align: center;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:15px;
+}
+
+.hutomoji{
+  font-weight: bold;
+}
+
+.btn-wrapper{
+  margin-top: 20px;
+}
+
+.btn{
+  padding: 8px 24px;
+  color:white;
+  opacity:0.8;
+  border-radius: 4px; 
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.fa{
+  margin-right: 5px;
+}
+
+.youtube{
+  background-color: RGB(218,23,37); 
+  margin-right: 20px;
+}
+
+.twitter{
+  background-color: RGB(29,161,242);
+}
+
+
+footer{
+  height:5%;
+  background-color:#38b4ee;
+  opacity:70%;
+}
+
+footer p{
+  color:#fff;
+  text-align: center;
+}
